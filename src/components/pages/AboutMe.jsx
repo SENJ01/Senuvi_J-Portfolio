@@ -5,6 +5,10 @@ import Image from 'react-bootstrap/Image';
 import Row from 'react-bootstrap/Row';
 import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
+import image4 from "../Images/Aboutme.png";
+import image5 from "../Images/linkedin.svg";
+import image6 from "../Images/github-alt.svg";
+import image7 from "../Images/instagram .svg";
 
 function AboutMe(){
     return(
@@ -12,7 +16,7 @@ function AboutMe(){
         <Row style={{margin:"80px"}}>
 
         <Col sm={6} className="d-flex justify-content-center align-items-center">
-            <Image className="about_image" src="./src/components/Images/Aboutme.png" rounded />
+            <Image className="about_image" src={image4} rounded />
           
         </Col>
         <Col sm={6} className="d-flex justify-content-center align-items-center" style={{height:"450px"}}>
@@ -128,9 +132,9 @@ function AboutMe(){
                                 </div>
 
                                 <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
-                                <li class="ms-3"><a class="text-muted" href="https://www.linkedin.com/in/senuvi-jayasinghe-414513256/"><img alt="" src="./src/components/Images/linkedin.svg" width="20" height="20"/></a></li>
-                                <li class="ms-3"><a class="text-muted" href="https://github.com/SENJ01"><img alt="" src="./src/components/Images/github-alt.svg" width="20" height="20"/></a></li>
-                                <li class="ms-3"><a class="text-muted" href="https://www.instagram.com/senuvi_j/?igsh=dGtsdDdsbmQ1YzR4&utm_source=qr"><img alt="" src="./src/components/Images/instagram .svg" width="20" height="20"/></a></li>
+                                <li class="ms-3"><a class="text-muted" href="https://www.linkedin.com/in/senuvi-jayasinghe-414513256/"><img alt="" src={image5} width="20" height="20"/></a></li>
+                                <li class="ms-3"><a class="text-muted" href="https://github.com/SENJ01"><img alt="" src={image6} width="20" height="20"/></a></li>
+                                <li class="ms-3"><a class="text-muted" href="https://www.instagram.com/senuvi_j/?igsh=dGtsdDdsbmQ1YzR4&utm_source=qr"><img alt="" src={image7} width="20" height="20"/></a></li>
                                 </ul>
                             </footer>
                             </div>
