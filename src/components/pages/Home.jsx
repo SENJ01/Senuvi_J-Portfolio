@@ -2,11 +2,12 @@ import React from "react";
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import image1 from "../Images/4.webp";
-import image2 from "../Images/5.png";
-import image3 from "../Images/7.png";
-import image5 from "../Images/linkedin.svg";
-import image6 from "../Images/github-alt.svg";
-import image7 from "../Images/instagram .svg";
+import image2 from "../Images/5_1.webp";
+import image3 from "../Images/7.webp";
+import image5 from "../Images/linkedin.webp";
+import image6 from "../Images/github-alt.webp";
+import image7 from "../Images/instagram-.webp";
+
 
 
 function Home(){
@@ -15,8 +16,10 @@ function Home(){
             <div className="container">
                 <div className="row">
                     <div className="col-md-12 text-center">
-                        <h3 className="main-heading">Hi, I'm Senuvi!</h3>
-                        <h3 className="main-heading">Computer Science Undergraduate</h3>
+                        <h1 className="main-heading">Hi, I'm Senuvi!</h1>
+                        <h1 className="main-heading first-heading">Computer Science Undergraduate</h1>
+                        <h2 className="main-heading second-heading">Computer Science Undergraduate</h2>
+
                         <p className="main-body">I’m interested in UI/UX design and Front end web development and driven by innovation and problem-solving
                          with a knack for blending technology with user-centric design</p>
 
