@@ -4,6 +4,9 @@ import Card from 'react-bootstrap/Card';
 import image1 from "../Images/4.png";
 import image2 from "../Images/5.png";
 import image3 from "../Images/7.png";
+import image5 from "../Images/linkedin.svg";
+import image6 from "../Images/github-alt.svg";
+import image7 from "../Images/instagram .svg";
 
 
 function Home(){
@@ -65,9 +68,9 @@ function Home(){
     </div>
 
     <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
-    <li class="ms-3"><a class="text-muted" href="https://www.linkedin.com/in/senuvi-jayasinghe-414513256/"><img alt="" src="./src/components/Images/linkedin.svg" width="20" height="20"/></a></li>
-    <li class="ms-3"><a class="text-muted" href="https://github.com/SENJ01"><img alt="" src="./src/components/Images/github-alt.svg" width="20" height="20"/></a></li>
-    <li class="ms-3"><a class="text-muted" href="https://www.instagram.com/senuvi_j/?igsh=dGtsdDdsbmQ1YzR4&utm_source=qr"><img alt="" src="./src/components/Images/instagram .svg" width="20" height="20"/></a></li>
+    <li class="ms-3"><a class="text-muted" href="https://www.linkedin.com/in/senuvi-jayasinghe-414513256/"><img alt="" src={image5} width="20" height="20"/></a></li>
+    <li class="ms-3"><a class="text-muted" href="https://github.com/SENJ01"><img alt="" src={image6} width="20" height="20"/></a></li>
+    <li class="ms-3"><a class="text-muted" href="https://www.instagram.com/senuvi_j/?igsh=dGtsdDdsbmQ1YzR4&utm_source=qr"><img alt="" src={image7} width="20" height="20"/></a></li>
     </ul>
   </footer>
 </div>
