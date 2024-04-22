@@ -3,6 +3,7 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import { Link } from 'react-router-dom';
+import image9 from "/logo.svg";
 
 
 function CustomNavbar(){
@@ -12,7 +13,7 @@ function CustomNavbar(){
               <Container>
                 <Navbar.Brand style={{fontWeight: "BOLD",margin:"20px", color:"#0C2D57"}} href="/"><img
                   alt=""
-                  src="./src/components/Images/logo.svg"
+                  src={image9}
                   width="25"
                   height="25"
                   className="d-inline-block align-top"
