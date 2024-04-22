@@ -6,10 +6,10 @@ import Row from 'react-bootstrap/Row';
 import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
 import Navbar from 'react-bootstrap/Navbar';
-import image5 from "../Images/linkedin.svg";
-import image6 from "../Images/github-alt.svg";
-import image7 from "../Images/instagram .svg";
-import image8 from "../Images/contact.jpg";
+import image5 from "../Images/linkedin.webp";
+import image6 from "../Images/github-alt.webp";
+import image7 from "../Images/instagram-.webp";
+import image8 from "../Images/contact.webp";
 
 function Contact(){
     return(
@@ -62,7 +62,7 @@ function Contact(){
         <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
             <div class="col-md-4 d-flex align-items-center">
             <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
-                <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"></use></svg>
+                {/* <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"></use></svg> */}
             </a>
             <span class="mb-3 mb-md-0" style={{color:"#0C2D57", fontWeight:"400", fontSize:"10px"}}>© 2024 Copyright Senuvi Jayasinghe.</span>
             </div>
