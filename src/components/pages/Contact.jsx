@@ -22,7 +22,7 @@ function Contact(){
                             <Card.Body>                     
                             <Navbar.Brand style={{fontWeight: "BOLD",margin:"20px", color:"#0C2D57"}} href="https://www.linkedin.com/in/senuvi-jayasinghe-414513256/">
                                 
-                                <img alt="" src="./src/components/Images/linkedin.svg" width="40" height="40"/>
+                                <img alt="" src={image5} width="40" height="40"/>
                                 {' '}
                                 Linkedin</Navbar.Brand>
                             </Card.Body>
@@ -31,7 +31,7 @@ function Contact(){
                             <Card.Body>                     
                             <Navbar.Brand style={{fontWeight: "BOLD",margin:"20px", color:"#0C2D57"}} href="https://github.com/SENJ01">
                                 
-                                <img alt="" src="./src/components/Images/github-alt.svg" width="40" height="40"/>
+                                <img alt="" src={image6} width="40" height="40"/>
                                 {' '}
                                 Github</Navbar.Brand>
                             </Card.Body>
@@ -40,7 +40,7 @@ function Contact(){
                             <Card.Body>
                             <Navbar.Brand style={{fontWeight: "BOLD",margin:"20px", color:"#0C2D57"}} href="https://www.instagram.com/senuvi_j/?igsh=dGtsdDdsbmQ1YzR4&utm_source=qr"><img
                                 alt=""
-                                src="./src/components/Images/instagram .svg"
+                                src={image7}
                                 width="40"
                                 height="40"
                                 

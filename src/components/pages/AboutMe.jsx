@@ -23,7 +23,7 @@ function AboutMe(){
         <Card className="aboutme_card" style={{border:"none", outline:"none"}}>
             <Card.Body>
                 <Card.Title style={{color:"#0C2D57",fontSize:"36px",fontWeight:"600"}}>Hi, It's <span style={{ color:"#ff9933"}}>Senuvi</span> here.</Card.Title>
-                {/* <Card.Subtitle className="mb-2 text-muted">Card Subtitle</Card.Subtitle> */}
+                
                 <Card.Text style={{color:"#0C2D57", fontSize:"14px",fontWeight:"500"}}>
                 A Computer Science student with a keen interest in UI/UX design and Front end web development. 
                 Currently pursuing a BSc (Hons) in Computer Science at University of Westminster. I'm driven by
@@ -39,18 +39,18 @@ function AboutMe(){
         </Row>
 
         <h1 className="aboutme-heading">Education</h1>
-        <div className="col-md-12" style={{margin:"20px 80px 5px"}}> {/* Add margin between cards */}
+        <div className="col-md-12" style={{margin:"20px 80px 5px"}}> 
             <Card className="aboutme_des"  style={{border:"none", outline:"none"}}>
                             
                             <Card.Body>
-                                <Card.Title style={{fontWeight:"bold", color: "#0C2D57"}}>G.C.E Advanced Level - Physical Science Stream </Card.Title>
-                                <Card.Title style={{fontWeight:"bold", color: "#0C2D57"}}>G.C.E Ordinary Level - 9A's </Card.Title>
+                                <Card.Title style={{fontWeight:"bold", color: "#0C2D57", fontSize:"1.3rem"}}>G.C.E Advanced Level - Physical Science Stream </Card.Title>
+                                <Card.Title style={{fontWeight:"bold", color: "#0C2D57", fontSize:"1.3rem"}}>G.C.E Ordinary Level - 9A's </Card.Title>
                                 <Card.Subtitle className="mb-2 text-muted">Visakha Vidyalaya</Card.Subtitle>
                             </Card.Body>
                         </Card>
                         <Card className="aboutme_des"  style={{border:"none", outline:"none"}}>  
                             <Card.Body>
-                            <Card.Title style={{fontWeight:"bold", color: "#0C2D57"}}>Bsc Computer Science (2022 - Present)</Card.Title>
+                            <Card.Title style={{fontWeight:"bold", color: "#0C2D57", fontSize:"1.3rem"}}>Bsc Computer Science (2022 - Present)</Card.Title>
                             <Card.Subtitle className="mb-2 text-muted">Informatics Institute of Technology (IIT) affiliated with University of Westminster - UK</Card.Subtitle>
                             </Card.Body>
                         </Card>
@@ -58,11 +58,11 @@ function AboutMe(){
 
 
                     <h1 className="aboutme-heading">Certification</h1>
-                    <div className="col-md-12" style={{margin:"20px 80px 80px"}}> {/* Add margin between cards */}
+                    <div className="col-md-12" style={{margin:"20px 80px 80px"}}> 
                         <Card className="aboutme_des"  style={{border:"none", outline:"none"}}>
                                         
                                         <Card.Body>
-                                            <Card.Title style={{fontWeight:"bold", color: "#0C2D57"}}>Preview Agile User Experience Design and Research </Card.Title>
+                                            <Card.Title style={{fontWeight:"bold", color: "#0C2D57", fontSize:"1.3rem"}}>Preview Agile User Experience Design and Research </Card.Title>
                                             
                                             <Card.Subtitle className="mb-2 text-muted">Linkedin</Card.Subtitle>
                                             <Card.Link style={{textDecoration:"none", fontWeight:"500", fontSize:"15px", color:"#ff9933"}} href="https://www.linkedin.com/learning/certificates/efdf518cf2a306d28bb57dced01787c250684dfc33cfd9a4b7c55800fef7b1a6">Show credential</Card.Link>
@@ -71,7 +71,7 @@ function AboutMe(){
                                     <Card className="aboutme_des"  style={{border:"none", outline:"none"}}>  
                                         
                                     <Card.Body>
-                                            <Card.Title style={{fontWeight:"bold" ,color: "#0C2D57"}}>UX Research: Lean Experimentation</Card.Title>
+                                            <Card.Title style={{fontWeight:"bold" ,color: "#0C2D57", fontSize:"1.3rem"}}>UX Research: Lean Experimentation</Card.Title>
                                             
                                             <Card.Subtitle className="mb-2 text-muted">Linkedin</Card.Subtitle>
                                             <Card.Link style={{textDecoration:"none", fontWeight:"500", fontSize:"15px", color:"#ff9933"}} href="https://www.linkedin.com/learning/certificates/391a274403975e1dcce971cfff0297c240890b3f237a738685c272cfd01174e6">Show credential</Card.Link>
@@ -81,7 +81,7 @@ function AboutMe(){
                                     <Card className="aboutme_des"  style={{border:"none", outline:"none"}}>  
                                         
                                     <Card.Body>
-                                            <Card.Title style={{fontWeight:"bold", color: "#0C2D57"}}>Web Design for Beginners</Card.Title>
+                                            <Card.Title style={{fontWeight:"bold", color: "#0C2D57", fontSize:"1.3rem"}}>Web Design for Beginners</Card.Title>
                                             
                                             <Card.Subtitle className="mb-2 text-muted">University of Moratuwa</Card.Subtitle>
                                             <Card.Link style={{textDecoration:"none", fontWeight:"500", fontSize:"15px", color:"#ff9933"}} href="https://open.uom.lk/lms/mod/customcert/verify_certificate.php">Show credential</Card.Link>
@@ -92,7 +92,7 @@ function AboutMe(){
                                     <Card className="aboutme_des"  style={{border:"none", outline:"none"}}>  
                                         
                                     <Card.Body>
-                                            <Card.Title style={{fontWeight:"bold", color: "#0C2D57"}}>Using Style Guides to Bridge Design and Development</Card.Title>
+                                            <Card.Title style={{fontWeight:"bold", color: "#0C2D57", fontSize:"1.3rem"}}>Using Style Guides to Bridge Design and Development</Card.Title>
                                             
                                             <Card.Subtitle className="mb-2 text-muted">Linkedin</Card.Subtitle>
                                             <Card.Link style={{textDecoration:"none", fontWeight:"500", fontSize:"15px", color:"#ff9933"}} href="https://www.linkedin.com/learning/certificates/1e3fe5a6ded7b0a756897bdd0f9419c96a8dfb948db578e5f95c4951e8a8f6d8">Show credential</Card.Link>
@@ -102,7 +102,7 @@ function AboutMe(){
                                     <Card className="aboutme_des"  style={{border:"none", outline:"none"}}>  
                                         
                                     <Card.Body>
-                                            <Card.Title style={{fontWeight:"bold", color: "#0C2D57"}}>IEEEXtreme 17.0 Programming Competition</Card.Title>
+                                            <Card.Title style={{fontWeight:"bold", color: "#0C2D57", fontSize:"1.3rem"}}>IEEEXtreme 17.0 Programming Competition</Card.Title>
                                             
                                             <Card.Subtitle className="mb-2 text-muted">IEEE</Card.Subtitle>
                                             <Card.Link style={{textDecoration:"none", fontWeight:"500", fontSize:"15px", color:"#ff9933"}} href="https://certificate.ieeextreme.org/generate-email-certificate/QoQZ8rOhVY8KhxK">Show credential</Card.Link>
@@ -112,7 +112,7 @@ function AboutMe(){
                                     <Card className="aboutme_des"  style={{border:"none", outline:"none"}}>  
                                         
                                     <Card.Body>
-                                            <Card.Title style={{fontWeight:"bold", color: "#0C2D57"}}>User Experience for Web Design</Card.Title>
+                                            <Card.Title style={{fontWeight:"bold", color: "#0C2D57", fontSize:"1.3rem"}}>User Experience for Web Design</Card.Title>
                                             
                                             <Card.Subtitle className="mb-2 text-muted">Linkedin</Card.Subtitle>
                                             <Card.Link style={{textDecoration:"none", fontWeight:"500", fontSize:"15px", color:"#ff9933"}} href="https://www.linkedin.com/learning/certificates/249c8d3703963d3aa456f2d4017e846892e4d7ebe0b722329ff1cfeeac2fb7a6">Show credential</Card.Link>
