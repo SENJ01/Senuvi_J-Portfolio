@@ -3,7 +3,7 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import { Link } from 'react-router-dom';
-import image9 from "/logo.svg";
+import image9 from "/logo.webp";
 
 
 function CustomNavbar(){
@@ -23,7 +23,7 @@ function CustomNavbar(){
                 <Navbar.Collapse id="basic-navbar-nav">
                   <Nav className="me-auto">
                   
-                    <Nav.Link as={Link} to="/" style={{margin:"10px", color:"#0C2D57"}}>Home</Nav.Link>
+                    <Nav.Link as={Link} to="/Senuvi_J-Portfolio" style={{margin:"10px", color:"#0C2D57"}}>Home</Nav.Link>
                     <Nav.Link as={Link} to="/about_me" style={{margin:"10px", color:"#0C2D57"}}>About Me</Nav.Link>
                     <Nav.Link as={Link} to="/contact" style={{margin:"10px", color:"#0C2D57"}}>Contact</Nav.Link>
                     
