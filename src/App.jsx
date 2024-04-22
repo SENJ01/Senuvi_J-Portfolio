@@ -1,6 +1,6 @@
 import './App.css'
 import React from 'react'
-import './App.css';
+
 // import Accordion from 'react-bootstrap/Accordion';
 
 
@@ -21,7 +21,7 @@ function App() {
     <div>
     <Navbar/>
       <Routes>
-      <Route path="/" element={<Home/>}/>
+      <Route path="/Senuvi_J-Portfolio" element={<Home/>}/>
       <Route path="/about_me" element={<AboutMe/>}/>
       <Route path="/contact" element={<Contact/>}/>
       </Routes>
