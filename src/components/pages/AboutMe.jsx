@@ -5,11 +5,10 @@ import Image from 'react-bootstrap/Image';
 import Row from 'react-bootstrap/Row';
 import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
-import image4 from "../Images/Aboutme.png";
-import image5 from "../Images/linkedin.svg";
-import image6 from "../Images/github-alt.svg";
-import image7 from "../Images/instagram .svg";
-
+import image4 from "../Images/Aboutme.webp";
+import image5 from "../Images/linkedin.webp";
+import image6 from "../Images/github-alt.webp";
+import image7 from "../Images/instagram-.webp";
 function AboutMe(){
     return(
         <Container>
