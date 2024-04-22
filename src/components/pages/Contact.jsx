@@ -6,6 +6,10 @@ import Row from 'react-bootstrap/Row';
 import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
 import Navbar from 'react-bootstrap/Navbar';
+import image5 from "../Images/linkedin.svg";
+import image6 from "../Images/github-alt.svg";
+import image7 from "../Images/instagram .svg";
+import image8 from "../Images/contact.jpg";
 
 function Contact(){
     return(
@@ -49,7 +53,7 @@ function Contact(){
         </Col>
 
         <Col sm={6} className="d-flex justify-content-center align-items-center">
-            <Image className="image" src="./src/components/Images/contact.jpg" rounded />
+            <Image className="image" src={image8} rounded />
           
         </Col>
         </Row>
@@ -64,9 +68,9 @@ function Contact(){
             </div>
 
             <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
-            <li class="ms-3"><a class="text-muted" href="https://www.linkedin.com/in/senuvi-jayasinghe-414513256/"><img alt="" src="./src/components/Images/linkedin.svg" width="20" height="20"/></a></li>
-            <li class="ms-3"><a class="text-muted" href="https://github.com/SENJ01"><img alt="" src="./src/components/Images/github-alt.svg" width="20" height="20"/></a></li>
-            <li class="ms-3"><a class="text-muted" href="https://www.instagram.com/senuvi_j/?igsh=dGtsdDdsbmQ1YzR4&utm_source=qr"><img alt="" src="./src/components/Images/instagram .svg" width="20" height="20"/></a></li>
+            <li class="ms-3"><a class="text-muted" href="https://www.linkedin.com/in/senuvi-jayasinghe-414513256/"><img alt="" src={image5} width="20" height="20"/></a></li>
+            <li class="ms-3"><a class="text-muted" href="https://github.com/SENJ01"><img alt="" src={image6} width="20" height="20"/></a></li>
+            <li class="ms-3"><a class="text-muted" href="https://www.instagram.com/senuvi_j/?igsh=dGtsdDdsbmQ1YzR4&utm_source=qr"><img alt="" src={image7} width="20" height="20"/></a></li>
             </ul>
         </footer>
         </div>
