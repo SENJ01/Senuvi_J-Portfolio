@@ -2,6 +2,8 @@ import React from "react";
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import image1 from "../Images/4.png";
+import image2 from "../Images/5.png";
+import image3 from "../Images/7.png";
 
 
 function Home(){
@@ -34,14 +36,14 @@ function Home(){
                             </Card.Body>
                         </Card>
                         <Card className="project-card" style={{border:"none", outline:"none"}}>
-                            <Card.Img variant="top" src="./src/components/Images/5.png" />
+                            <Card.Img variant="top" src={image2}  />
                             <Card.Body>
                                 <Card.Title style={{fontWeight:"bold", marginTop:"20px", color: "#0C2D57"}}>BIT LEARN - Cryptocurrency Learning Application</Card.Title>
                                 <Card.Link style={{textDecoration:"none", fontWeight:"500", fontSize:"15px", color:"#ff9933"}} href="https://www.figma.com/file/LAiqAojHVT9xcNFRA9gCkz/RevolUX?type=design&node-id=0%3A1&mode=design&t=ge2bQLo9LcW5VT6g-1">See more..</Card.Link>
                             </Card.Body>
                         </Card>
                         <Card className="project-card" style={{border:"none", outline:"none"}}>
-                            <Card.Img variant="top" src="./src/components/Images/7.png" />
+                            <Card.Img variant="top" src={image3} />
                             <Card.Body>
                                 <Card.Title style={{fontWeight:"bold", marginTop:"20px", color: "#0C2D57"}}>3D Food Printing Mobile Application</Card.Title>
                                 <Card.Link style={{textDecoration:"none", fontWeight:"500", fontSize:"15px", color:"#ff9933"}} href="https://www.figma.com/file/NshEau6BrO6uVld9NHiQqE/Website?type=design&node-id=167-1424&mode=design">See more..</Card.Link>
