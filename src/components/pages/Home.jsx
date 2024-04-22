@@ -1,6 +1,7 @@
 import React from "react";
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
+import image1 from "../Images/4.png";
 
 
 function Home(){
@@ -26,7 +27,7 @@ function Home(){
                 <div className="row projects justify-content-center"> {/* Center align the cards */}
                     <div className="col-md-12"> {/* Add margin between cards */}
                         <Card className="project-card" style={{border:"none", outline:"none"}}>
-                            <Card.Img variant="top" src="./src/components/Images/4.png" />
+                            <Card.Img variant="top" src={image1} />
                             <Card.Body>
                                 <Card.Title style={{fontWeight:"bold", marginTop:"20px", color: "#0C2D57"}}>Ezthara Hair Miracle - Redesigned the UI of Ezthara</Card.Title>
                                 <Card.Link style={{textDecoration:"none", fontWeight:"500", fontSize:"15px", color:"#ff9933"}} href="https://www.figma.com/file/NshEau6BrO6uVld9NHiQqE/Website?type=design&node-id=83-176&mode=design">See more..</Card.Link>
