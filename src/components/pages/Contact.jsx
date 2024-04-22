@@ -14,10 +14,10 @@ import image8 from "../Images/contact.webp";
 function Contact(){
     return(
         <Container>
-        <Row className="contacts_row" style={{margin:"80px"}}>
+        <Row className="contacts_row">
         
         <Col sm={6} className="d-flex justify-content-center align-items-center" style={{height:"450px"}}>
-        <div className="col-md-12" style={{margin:"80px 5px 80px 120px"}}> {/* Add margin between cards */}
+        <div className="col-md-12" > {/* Add margin between cards */}
                         <Card className="contact_card" style={{border:"none", outline:"none"}}>
                             <Card.Body>                     
                             <Navbar.Brand style={{fontWeight: "BOLD",margin:"20px", color:"#0C2D57"}} href="https://www.linkedin.com/in/senuvi-jayasinghe-414513256/">
@@ -80,4 +80,3 @@ function Contact(){
 }
 
 export default Contact;
-
