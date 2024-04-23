@@ -35,21 +35,28 @@ function Home(){
                 <div className="row projects justify-content-center"> {/* Center align the cards */}
                     <div className="col-md-12"> {/* Add margin between cards */}
                         <Card className="project-card" style={{border:"none", outline:"none"}}>
+                        <a href="https://www.figma.com/file/NshEau6BrO6uVld9NHiQqE/Website?type=design&node-id=83-176&mode=design" target="_blank" rel="noopener noreferrer">
                             <Card.Img variant="top" src={image1} />
+                        </a>
                             <Card.Body>
                                 <Card.Title style={{fontWeight:"bold", marginTop:"20px", color: "#0C2D57"}}>Ezthara Hair Miracle - Redesigned the UI of Ezthara</Card.Title>
                                 <Card.Link style={{textDecoration:"none", fontWeight:"500", fontSize:"15px", color:"#ff9933"}} href="https://www.figma.com/file/NshEau6BrO6uVld9NHiQqE/Website?type=design&node-id=83-176&mode=design">See more..</Card.Link>
                             </Card.Body>
                         </Card>
                         <Card className="project-card" style={{border:"none", outline:"none"}}>
+                            
+                            <a href="https://www.figma.com/file/LAiqAojHVT9xcNFRA9gCkz/RevolUX?type=design&node-id=0%3A1&mode=design&t=ge2bQLo9LcW5VT6g-1" target="_blank" rel="noopener noreferrer">
                             <Card.Img variant="top" src={image2}  />
+                            </a>
                             <Card.Body>
                                 <Card.Title style={{fontWeight:"bold", marginTop:"20px", color: "#0C2D57"}}>BIT LEARN - Cryptocurrency Learning Application</Card.Title>
                                 <Card.Link style={{textDecoration:"none", fontWeight:"500", fontSize:"15px", color:"#ff9933"}} href="https://www.figma.com/file/LAiqAojHVT9xcNFRA9gCkz/RevolUX?type=design&node-id=0%3A1&mode=design&t=ge2bQLo9LcW5VT6g-1">See more..</Card.Link>
                             </Card.Body>
                         </Card>
                         <Card className="project-card" style={{border:"none", outline:"none"}}>
-                            <Card.Img variant="top" src={image3} />
+                        <a href="https://www.figma.com/file/NshEau6BrO6uVld9NHiQqE/Website?type=design&node-id=167-1424&mode=design" target="_blank" rel="noopener noreferrer">
+                            <Card.Img variant="top" src={image3}  />
+                            </a>
                             <Card.Body>
                                 <Card.Title style={{fontWeight:"bold", marginTop:"20px", color: "#0C2D57"}}>3D Food Printing Mobile Application</Card.Title>
                                 <Card.Link style={{textDecoration:"none", fontWeight:"500", fontSize:"15px", color:"#ff9933"}} href="https://www.figma.com/file/NshEau6BrO6uVld9NHiQqE/Website?type=design&node-id=167-1424&mode=design">See more..</Card.Link>
