@@ -1,7 +1,6 @@
 import './App.css'
 import React from 'react'
 
-// import Accordion from 'react-bootstrap/Accordion';
 
 
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -9,10 +8,9 @@ import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import {BrowserRouter as Router, Routes ,Route} from 'react-router-dom';
 
 import Navbar from './components/Inc/Navbar';
-import Home from './components/pages/Home';
 import AboutMe from './components/pages/AboutMe';
 import Contact from './components/pages/Contact';
-
+import Home from './components/pages/Home';
 
 
 function App() {
@@ -24,6 +22,7 @@ function App() {
       <Route path="/Senuvi_J-Portfolio" element={<Home/>}/>
       <Route path="/about_me" element={<AboutMe/>}/>
       <Route path="/contact" element={<Contact/>}/>
+ 
       </Routes>
         
     </div>
