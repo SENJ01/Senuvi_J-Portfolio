@@ -5,6 +5,7 @@ import Card from 'react-bootstrap/Card';
 import image1 from "../Images/4.webp";
 import image2 from "../Images/5_1.webp";
 import image3 from "../Images/7.webp";
+import image9 from "../Images/portfolio.webp";
 import image5 from "../Images/linkedin.webp";
 import image6 from "../Images/github-alt.webp";
 import image7 from "../Images/instagram-.webp";
@@ -33,30 +34,31 @@ function Testing(){
                         <h1 className="main-heading first-heading">Computer Science Undergraduate</h1>
                         <h2 className="main-heading second-heading">Computer Science Undergraduate</h2>
 
-                        <p className="main-body">I’m interested in UI/UX design and Front end web development and driven by innovation and problem-solving
-                         with a knack for blending technology with user-centric design</p>
+                        <p className="main-body">I’m interested in UI/UX design and Front end web development and driven by innovation
+                         and problem-solving with a knack for blending technology with user-centric design.</p>
 
                          <Button variant="primary" style={{backgroundColor: "#ff9933",color: "#0C2D57", borderRadius: "30px", margin:"10px", width:"150px",
                          border:"none", fontFamily:"montserrat", fontSize:"20px",  fontWeight:"bold"}} 
                          href="https://www.linkedin.com/in/senuvi-jayasinghe-414513256/">Let's chat</Button>  
                     </div>
                 </div>
-            
+                {/* <hr className="hr hr-blurry" /> */}
                 
-            <h1 className="project-heading">Projects</h1> {/* Updated heading */}
+            <h1 className="project-heading">Projects</h1>
+            {/* <h3 className="project-subheading">UI Designs</h3>  */}
              <MDBRow className='row-cols-1 row-cols-md-2 g-4 project-col'>
                 <MDBCol>
                 <MDBCard className="card">
-                <a href="https://www.figma.com/file/NshEau6BrO6uVld9NHiQqE/Website?type=design&node-id=83-176&mode=design" target="_blank" rel="noopener noreferrer">
+                <a href="https://www.figma.com/file/gtC73iMjTNYF0OESKTJiZp/UI%2FUX-Portfolio?type=design&node-id=12%3A2&mode=design&t=FnHBkxaxZXiiS331-1" target="_blank" rel="noopener noreferrer">
                 <MDBCardImage
-                    src={image1}
+                    src={image9}
                     alt='...'
                     position='top'
                 />
                 </a>
                 
                 <MDBCardBody>
-                    <MDBCardTitle className="project-des">Ezthara Hair Miracle - Redesigned the UI of Ezthara</MDBCardTitle>
+                    <MDBCardTitle className="project-des">Portfolio Website</MDBCardTitle>
                     {/* <MDBCardText>
                     This is a longer card with supporting text below as a natural lead-in to additional content.
                     This content is a little bit longer.
