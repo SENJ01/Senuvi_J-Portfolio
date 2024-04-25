@@ -10,7 +10,7 @@ import image5 from "../Images/linkedin.webp";
 import image6 from "../Images/github-alt.webp";
 import image7 from "../Images/instagram-.webp";
 import image8 from "../Images/contact.webp";
-
+import '../css/Contact.css'
 function Contact(){
     return(
         <Container>
