@@ -1,0 +1,17 @@
+.logo{
+    /* style={{fontWeight: "BOLD",margin:"20px", color:"#0C2D57"}} */
+    font-weight: bold;
+    margin: 20px;
+    color: #0C2D57;
+}
+
+.nav-links{
+    /* style={{margin:"10px", color:"#0C2D57"}}> */
+    margin: 0 20px;
+    color: #0C2D57;
+    text-align: left;
+}
+
+.nav-links:hover{
+    color:#ff9933;
+}
