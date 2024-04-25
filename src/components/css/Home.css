@@ -1,0 +1,110 @@
+.card{
+
+    width:100%;
+    margin: 0 auto; 
+    align-content: center;
+    border-style: none;
+}
+
+.project-col{
+    margin: 0 100px;
+}
+.project-heading {
+    font-family: montserrat;
+    color: #0C2D57;
+    font-weight: bold;
+    margin: 15px 70px; 
+    text-align:left;
+    font-size: 2rem;
+}
+
+.project-des {
+    font-family: montserrat;
+    color: #0C2D57;
+    font-weight: bold;
+    margin-left: 20px;
+    text-align:left;
+    font-size: 1.4rem;
+}
+
+.project-card {
+
+    width:100%;
+    margin: 0 auto; 
+    margin-bottom: 50px; /* Add margin between cards */
+    align-content: center;
+    border-style: none;
+}
+
+
+
+.Home-hero{
+    margin: 20px;
+    padding-top: 150px;
+    padding-bottom: 60px;
+    
+}
+
+.main-heading{
+    font-family: montserrat;
+    font-weight:bolder;
+    /* font-size: 3rem; */
+    color: #0C2D57;
+}
+
+.second-heading{
+    font-family: montserrat;
+    display: none;
+    font-weight:bolder;
+    /* font-size: 3rem; */
+    color: #0C2D57;
+}
+
+.main-body{
+    margin: 0 auto;
+    font-family: montserrat;
+    font-weight:600;
+    font-size: 16px;
+    color: #0C2D57;
+    line-height: 2rem;
+}
+
+@media screen and (max-width: 480px) {
+    .Home-hero {
+        padding-top: 80px;
+        padding-bottom: 60px;
+    }
+    
+    .project-heading {
+        font-family: montserrat;
+        color: #0C2D57;
+        font-weight: bold;
+        text-align:left;
+        font-size: 1.8rem; /* Increase font size */
+    }
+
+    .project-col{
+        margin: 20px;
+    }
+
+    .first-heading{
+        display: none;
+    }
+
+    .second-heading{
+        display:flex;
+        text-align: center;
+    }
+   }
+
+   @media (min-width: 1201px) {
+    .main-body{
+        margin: 0 100px;
+        font-family: montserrat;
+        font-weight:600;
+        font-size: 16px;
+        color: #0C2D57;
+        line-height: 2rem;
+    }
+    
+}
