@@ -11,7 +11,7 @@ function CustomNavbar(){
 
             <Navbar expand="lg"  >
               <Container>
-                <Navbar.Brand style={{fontWeight: "BOLD",margin:"20px", color:"#0C2D57"}} href="/Senuvi_J-Portfolio"><img
+                <Navbar.Brand style={{fontWeight: "BOLD",margin:"20px", color:"#0C2D57"}} href="/Senuvi_J-Portfolio/"><img
                   alt=""
                   src={image9}
                   width="25"
