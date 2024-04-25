@@ -1,114 +1,16 @@
-
+/* ==Navbar== */
 .navbar{
     font-family: montserrat;
     font-weight: 600;
     color: #0C2D57;
 }
 
-.project-heading {
-    font-family: montserrat;
-    color: #0C2D57;
-    font-weight: bold;
-    margin: 70px 0px 70px;
-    text-align:left;
-    font-size: 2rem; /* Increase font size */
-}
-
-.project-card {
-
-    width:100%;
-    margin: 0 auto; 
-    margin-bottom: 50px; /* Add margin between cards */
-    align-content: center;
-    border-style: none;
-}
 .d-inline-block{
     align-items: center;
     margin-right: 5px;
 }
 
-.section{
-    padding-top: 150px;
-    
-    
-}
-
-.main-heading{
-    font-family: montserrat;
-    font-weight:bolder;
-    /* font-size: 3rem; */
-    color: #0C2D57;
-}
-
-.second-heading{
-    font-family: montserrat;
-    display: none;
-    font-weight:bolder;
-    /* font-size: 3rem; */
-    color: #0C2D57;
-}
-
-.main-body{
-    margin: 20 auto;
-    font-family: montserrat;
-    font-weight:600;
-    font-size: 16px;
-    color: #0C2D57;
-    line-height: 2rem;
-}
-
-.image{
-    width: 100%;
-    /* height: 325px; */
-    /* margin-right: 140; */
-    /* margin-left: 150px; */
-}
-.about_image{
-    width: 290px;
-    height: 325px;
-    margin-right: 140;
-    /* margin-left: 150px; */
-}
-
-
-.aboutme_card{
-    
-    width: 450px;
-    height: 500px;
-    font-family: montserrat;
-    
-}
-
-.aboutme-heading{
-    font-family: montserrat;
-    color: #0C2D57;
-    font-weight: bold;
-    margin-top: 60px;
-    text-align:left;
-    font-size: 2rem; /* Increase font size */
-}
-
-.aboutme_des{
-    font-family: montserrat;
-}
-
-.contact_card{
-    width: fit-content;
-    height: 500px;
-    font-family: montserrat;
-    
-}
-
-.contacts_row{
-    background: rgba(255, 255, 255, 0);
-    border-radius: 16px;
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(4.1px);
-    -webkit-backdrop-filter: blur(4.1px);
-    border: 1px solid rgba(255, 255, 255, 0.24);
-    
-}
-
+/* ==Copyright== */
 .copyright{
     text-align:  center;
     margin: auto;
@@ -119,14 +21,3 @@
     text-decoration: none;
 }
 
-
-@media screen and (max-width: 370px) {
-    
-    .first-heading{
-        display: none;
-    }
-
-    .second-heading{
-        display:flex;
-    }
-   }
