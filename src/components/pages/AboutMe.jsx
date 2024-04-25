@@ -9,6 +9,8 @@ import image4 from "../Images/Aboutme.webp";
 import image5 from "../Images/linkedin.webp";
 import image6 from "../Images/github-alt.webp";
 import image7 from "../Images/instagram-.webp";
+import '../css/AboutMe.css'
+
 function AboutMe(){
     return(
         <Container>
@@ -25,11 +27,10 @@ function AboutMe(){
                 
                 <Card.Text style={{color:"#0C2D57", fontSize:"14px",fontWeight:"500"}}>
                 A Computer Science student with a keen interest in UI/UX design and Front end web development. 
-                Currently pursuing a BSc (Hons) in Computer Science at University of Westminster. I'm driven by
-                 innovation and problem-solving. With a knack for blending technology with user-centric design. 
+                Currently pursuing a BSc (Hons) in Computer Science at University of Westminster. I'm driven for blending technology with user-centric design. 
                  I'm excited to leverage my skills to craft seamless and engaging experiences.
                 </Card.Text>
-                <Button variant="primary" style={{backgroundColor: "#ff9933",color: "#0C2D57", borderRadius: "30px", width:"150px", height:"40px", 
+                <Button variant="primary" style={{backgroundColor: "#ff9933",color: "#0C2D57", borderRadius: "30px", width:"150px", 
                          border:"none", fontFamily:"montserrat", fontSize:"15px",  fontWeight:"bold"}} 
                          href="https://www.linkedin.com/in/senuvi-jayasinghe-414513256/">Contact me</Button> 
             </Card.Body>
