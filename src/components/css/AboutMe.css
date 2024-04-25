@@ -1,0 +1,28 @@
+/* ==AboutMe== */
+.about_image{
+    width: 290px;
+    height: 325px;
+    margin-right: 140;
+    /* margin-left: 150px; */
+}
+
+
+.aboutme_card{
+    
+    width: 450px;
+    font-family: montserrat;
+    
+}
+
+.aboutme-heading{
+    font-family: montserrat;
+    color: #0C2D57;
+    font-weight: bold;
+    margin-top: 60px;
+    text-align:left;
+    font-size: 2rem; /* Increase font size */
+}
+
+.aboutme_des{
+    font-family: montserrat;
+}
