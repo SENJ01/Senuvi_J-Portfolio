@@ -63,6 +63,23 @@ function Testing(){
                 </MDBCardBody>
                 </MDBCard>
             </MDBCol>
+
+            <MDBCol>
+            <MDBCard className="card">
+            <a href="https://www.figma.com/file/LAiqAojHVT9xcNFRA9gCkz/RevolUX?type=design&node-id=0%3A1&mode=design&t=ge2bQLo9LcW5VT6g-1" target="_blank" rel="noopener noreferrer">
+                <MDBCardImage
+                    src={image2}
+                    alt='...'
+                    position='top'
+                />
+                </a>
+                
+                <MDBCardBody>
+                    <MDBCardTitle className="project-des">BIT LEARN - Cryptocurrency Learning Application</MDBCardTitle>
+                </MDBCardBody>
+                </MDBCard>
+            </MDBCol>
+            
                 <MDBCol>
                 <MDBCard className="card">
                 <a href="https://www.figma.com/file/gtC73iMjTNYF0OESKTJiZp/UI%2FUX-Portfolio?type=design&node-id=12%3A2&mode=design&t=FnHBkxaxZXiiS331-1" target="_blank" rel="noopener noreferrer">
@@ -79,21 +96,7 @@ function Testing(){
                 </MDBCard>
             </MDBCol>
            
-            <MDBCol>
-            <MDBCard className="card">
-            <a href="https://www.figma.com/file/LAiqAojHVT9xcNFRA9gCkz/RevolUX?type=design&node-id=0%3A1&mode=design&t=ge2bQLo9LcW5VT6g-1" target="_blank" rel="noopener noreferrer">
-                <MDBCardImage
-                    src={image2}
-                    alt='...'
-                    position='top'
-                />
-                </a>
-                
-                <MDBCardBody>
-                    <MDBCardTitle className="project-des">BIT LEARN - Cryptocurrency Learning Application</MDBCardTitle>
-                </MDBCardBody>
-                </MDBCard>
-            </MDBCol>
+        
             <MDBCol>
             <MDBCard className="card">
             <a href="https://www.figma.com/file/NshEau6BrO6uVld9NHiQqE/Website?type=design&node-id=167-1424&mode=design" target="_blank" rel="noopener noreferrer">
