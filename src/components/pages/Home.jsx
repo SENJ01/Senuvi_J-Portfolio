@@ -9,6 +9,7 @@ import image9 from "../Images/portfolio.webp";
 import image5 from "../Images/linkedin.webp";
 import image6 from "../Images/github-alt.webp";
 import image7 from "../Images/instagram-.webp";
+import image10 from "../Images/CMS.webp";
 
 import {
     MDBCard,
@@ -47,6 +48,21 @@ function Testing(){
             <h1 className="project-heading">Projects</h1>
             {/* <h3 className="project-subheading">UI Designs</h3>  */}
              <MDBRow className='row-cols-1 row-cols-md-2 g-4 project-col'>
+             <MDBCol>
+            <MDBCard className="card">
+            <a href="https://www.figma.com/design/ltiiPXP157kaF1QDIRA4Cz/Parallax?node-id=0%3A1&t=YRtpSVFfS2IOKho1-1" target="_blank" rel="noopener noreferrer">
+                <MDBCardImage
+                    src={image10}
+                    alt='...'
+                    position='top'
+                />
+                </a>
+                
+                <MDBCardBody>
+                    <MDBCardTitle className="project-des">CMS - City Management System Application</MDBCardTitle>
+                </MDBCardBody>
+                </MDBCard>
+            </MDBCol>
                 <MDBCol>
                 <MDBCard className="card">
                 <a href="https://www.figma.com/file/gtC73iMjTNYF0OESKTJiZp/UI%2FUX-Portfolio?type=design&node-id=12%3A2&mode=design&t=FnHBkxaxZXiiS331-1" target="_blank" rel="noopener noreferrer">
@@ -59,13 +75,10 @@ function Testing(){
                 
                 <MDBCardBody>
                     <MDBCardTitle className="project-des">Portfolio Website</MDBCardTitle>
-                    {/* <MDBCardText>
-                    This is a longer card with supporting text below as a natural lead-in to additional content.
-                    This content is a little bit longer.
-                    </MDBCardText> */}
                 </MDBCardBody>
                 </MDBCard>
             </MDBCol>
+           
             <MDBCol>
             <MDBCard className="card">
             <a href="https://www.figma.com/file/LAiqAojHVT9xcNFRA9gCkz/RevolUX?type=design&node-id=0%3A1&mode=design&t=ge2bQLo9LcW5VT6g-1" target="_blank" rel="noopener noreferrer">
@@ -78,10 +91,6 @@ function Testing(){
                 
                 <MDBCardBody>
                     <MDBCardTitle className="project-des">BIT LEARN - Cryptocurrency Learning Application</MDBCardTitle>
-                    {/* <MDBCardText>
-                    This is a longer card with supporting text below as a natural lead-in to additional content.
-                    This content is a little bit longer.
-                    </MDBCardText> */}
                 </MDBCardBody>
                 </MDBCard>
             </MDBCol>
@@ -97,10 +106,6 @@ function Testing(){
                 
                 <MDBCardBody>
                     <MDBCardTitle className="project-des">3D Food Printing Mobile Application</MDBCardTitle>
-                    {/* <MDBCardText>
-                    This is a longer card with supporting text below as a natural lead-in to additional content.
-                    This content is a little bit longer.
-                    </MDBCardText> */}
                 </MDBCardBody>
                 </MDBCard>
             </MDBCol>
@@ -116,10 +121,6 @@ function Testing(){
                 
                 <MDBCardBody>
                     <MDBCardTitle className="project-des">Ezthara Hair Miracle - Redesigned the UI of Ezthara</MDBCardTitle>
-                    {/* <MDBCardText>
-                    This is a longer card with supporting text below as a natural lead-in to additional content.
-                    This content is a little bit longer.
-                    </MDBCardText> */}
                 </MDBCardBody>
                 </MDBCard>
             </MDBCol>
