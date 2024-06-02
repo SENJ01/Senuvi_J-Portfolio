@@ -30,9 +30,10 @@ function AboutMe(){
                 Currently pursuing a BSc (Hons) in Computer Science at University of Westminster. I'm driven for blending technology with user-centric design. 
                  I'm excited to leverage my skills to craft seamless and engaging experiences.
                 </Card.Text>
-                <Button variant="primary" style={{backgroundColor: "#ff9933",color: "#0C2D57", borderRadius: "30px", width:"150px", 
-                         border:"none", fontFamily:"montserrat", fontSize:"15px",  fontWeight:"bold"}} 
-                         href="https://www.linkedin.com/in/senuvi-jayasinghe-414513256/">Contact me</Button> 
+                <Button className="flyer-button" style={{backgroundColor:"#ff9933", margin:"10px", borderRadius: "30px", fontWeight:"bold", fontFamily:"montserrat", fontSize:"20px"}} variant="primary" size="lg"
+                         href="https://www.linkedin.com/in/senuvi-jayasinghe-414513256/">
+                            Contact Me
+                        </Button> 
             </Card.Body>
             </Card>
         </Col>
