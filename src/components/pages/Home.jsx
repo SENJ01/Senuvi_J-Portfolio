@@ -37,13 +37,24 @@ function Testing(){
 
                         <p className="main-body">I’m interested in UI/UX design and Front end web development and driven by innovation
                          and problem-solving with a knack for blending technology with user-centric design.</p>
-
-                         <Button variant="primary" style={{backgroundColor: "#ff9933",color: "#0C2D57", borderRadius: "30px", margin:"10px", width:"150px",
+                         <Button className="flyer-button" style={{backgroundColor:"#ff9933", margin:"10px", borderRadius: "30px", fontWeight:"bold", fontFamily:"montserrat", fontSize:"20px"}} variant="primary" size="lg"
+                         href="https://www.linkedin.com/in/senuvi-jayasinghe-414513256/">
+                            Let's Chat
+                        </Button>
+                         {/* <Button variant="primary" style={{backgroundColor: "#ff9933",color: "#0C2D57", borderRadius: "30px", margin:"10px", width:"150px",
                          border:"none", fontFamily:"montserrat", fontSize:"20px",  fontWeight:"bold"}} 
-                         href="https://www.linkedin.com/in/senuvi-jayasinghe-414513256/">Let's chat</Button>  
+                         href="https://www.linkedin.com/in/senuvi-jayasinghe-414513256/">Let's chat</Button>   */}
                     </div>
                 </div>
                 {/* <hr className="hr hr-blurry" /> */}
+                <h1 className="project-heading">Design Flyers</h1>
+            
+                <div className="d-grid gap-2">
+                <Button className="flyer-button" style={{backgroundColor:"#ff9933",  borderRadius: "30px", fontWeight:"bold"}}variant="primary" size="lg"
+                href="https://drive.google.com/drive/folders/1BhZremBas9xlcUnt4nw2bgyEyqaw1LLE?usp=sharing">
+                    Click here to view Designs
+                </Button>
+                </div>
                 
             <h1 className="project-heading">Projects</h1>
             {/* <h3 className="project-subheading">UI Designs</h3>  */}
